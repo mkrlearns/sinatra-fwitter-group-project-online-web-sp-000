@@ -1,6 +1,10 @@
 <form action="/tweets/<%= @tweet.id %>" method='POST'>
 <input id='hidden' type='hidden' name='_method' value='patch'>
+<<<<<<< HEAD
     <label for='content'>Content:</label>
+=======
+    <label for='content'>Tweet</label>
+>>>>>>> 6426855a8fa63c26f348d540a9a4abeb66d7ec7e
     <input type='text' id='content' name='content' value="<%= @tweet.content %>">
     <input type='submit' value='Submit' id='submit'>
 </form>
